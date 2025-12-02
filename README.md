@@ -25,8 +25,14 @@ This will download the latest version and install it to `/usr/local/bin/bugz`.
 Start the interactive CLI:
 
 ```bash
-bugz chat
+bugz
 ```
+
+**First-time Setup:**
+On your first run, you will need to authenticate:
+1. Run `bugz login`
+2. Choose your provider (Google or GitHub)
+3. Follow the instructions to authenticate
 
 Then interact with Bugz to:
 - Generate secure Terraform/OpenTofu infrastructure code
@@ -37,7 +43,7 @@ Then interact with Bugz to:
 ## Requirements
 
 - macOS or Linux
-- Internet connection (Bugz connects to a cloud backend)
+- Internet connection
 
 ## Support
 
@@ -45,4 +51,4 @@ For issues, feature requests, or questions, please visit our [GitHub Issues](htt
 
 ## License
 
-Copyright © 2024 Bugzidna Labs
+Copyright © 2025 Bugzidna Labs
